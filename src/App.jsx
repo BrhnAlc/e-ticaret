@@ -1,3 +1,5 @@
+import Header from "./components/Header"
+import PageContainer from "./container/PageContainer"
 
 
 function App() {
@@ -5,7 +7,10 @@ function App() {
 
   return (
     <>
-    alaca
+    <PageContainer>
+    <Header/>
+     
+    </PageContainer>
     </>
   )
 }
