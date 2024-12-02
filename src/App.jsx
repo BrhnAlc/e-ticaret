@@ -1,5 +1,7 @@
 import Header from "./components/Header"
-import PageContainer from "./container/PageContainer"
+import PageContainer from "./container/PageContainer";
+import "../src/App.css"
+import ProductList from "./components/ProductList";
 
 
 function App() {
@@ -9,6 +11,7 @@ function App() {
     <>
     <PageContainer>
     <Header/>
+    <ProductList/>
      
     </PageContainer>
     </>

@@ -8,3 +8,60 @@ font-family:Arial, Helvetica, sans-serif;
 font-size: 15px;
 font-weight: 600;
 }
+.search-input{
+    border: none;
+    border-bottom: 1px solid lightgrey;
+    padding: 5px 10px;
+    outline: none;
+}
+.icon{
+    font-size:20px;
+    margin-right:10px;
+    
+}
+.icon:hover{
+    cursor: pointer;
+}
+/* Genel stil */
+body {
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  /* Karanlık mod stilleri */
+  body.dark-mode {
+    background-color: #121212;
+    color: white;
+  }
+  
+  /* Header Component */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .search-input {
+    padding: 8px;
+    margin-right: 10px;
+  }
+  
+  /* İkonlar */
+  .icon {
+    font-size: 24px;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+  /* Logo ve metin stil */
+  .logo {
+    height: 40px;
+  }
+  
+  .logo-text {
+    font-size: 20px;
+    font-weight: bold;
+    color: inherit;
+  }
+  
