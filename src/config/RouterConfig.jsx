@@ -9,4 +9,4 @@ function RouterConfig() {
   )
 }
 
-export default RouterConfig
+export default RouterConfig;
